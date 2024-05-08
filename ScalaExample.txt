@@ -1,0 +1,31 @@
+object ScalaExample {
+  def main(args: Array[String]): Unit = {
+    var n1 = 10
+    var n2 = 20
+    if (n1 > n2) {
+      println("N1 is greater")
+    } else {
+      println("N2 is greater")
+    }
+  }
+}
+
+
+object ScalaExample {
+  def main(args: Array[String]){
+    var n1 = 10
+    var n2 = 20
+    if (n1 > n2) {
+      println("N1 is greater")
+    } else {
+      println("N2 is greater")
+    }
+  }
+}
+
+
+
+scalac ScalaExample.scala
+
+
+scala ScalaExample
